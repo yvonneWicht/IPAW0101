@@ -8,16 +8,17 @@ Make sure to install the dependencies:
 
 ```bash
 # npm
-npm install
+npm install -D @nuxtjs/tailwindcss
 
 # pnpm
-pnpm install
+pnpm i -D @nuxtjs/tailwindcss
 
 # yarn
-yarn install
+yarn add -D @nuxtjs/tailwindcss
 
-# bun
-bun install
+# nuxi
+npx nuxi@latest module add tailwindcss
+npx nuxi@latest module add google-fonts
 ```
 
 ## Development Server

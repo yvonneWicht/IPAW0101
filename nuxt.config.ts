@@ -3,7 +3,7 @@ import { resolve } from "path";
 export default defineNuxtConfig({
   //durch den Alias muss man nicht immer das Verzeichnis eingeben
   alias: {
-    '@': resolve (__dirname, "/"),
+    assets: "/<rootDir>/assets",
   },
   css: ["~/assets/main.scss"],
   //brauche ich das?
@@ -15,5 +15,10 @@ export default defineNuxtConfig({
   // },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss']
+  googleFonts: {
+    families: {
+      'Aleo': true,
+    }
+  },
+  modules: ['@nuxtjs/tailwindcss', "@nuxtjs/google-fonts"]
 })

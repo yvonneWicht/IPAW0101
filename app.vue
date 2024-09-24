@@ -20,7 +20,7 @@
           </li>
         </ul>
       </header>
-
+        <img src="@/assets/clothes.jpg" alt="Kleider"/>
       <NuxtPage/>
 
 
@@ -33,3 +33,8 @@
 
 <!--Minute 32 - Layouts-->
 <!--https://youtu.be/fTPCKnZZ2dk-->
+<!--Infos zu SVG: Minute 46-->
+<!--Als Component/Icons einbauen, ist dann eine vue-Datei in der der SVG-Code liegt-->
+<!--VueUse!!!!!!-->
+<!--Middleware genauer anschauen ob nützlich ca. 1std 4-->
+<!--content module um texte nicht im html schreiben zu müssen?-->
